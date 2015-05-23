@@ -19,6 +19,8 @@ Sinatra, Sequel(with in-memory SQLite), WhoIs gem, Angular.js
 
 #ToDo
 
-Check assets configuration - Angular is not not loading templates from Sinatra
-Refactor js as it is bloody mess(extract layout to directives, use ngRoutes, etc)
-Add handling for backend errors with meaningful error messages
+1) Check assets configuration - Angular is not not loading templates from Sinatra
+2) Refactor js as it is bloody mess(extract layout to directives, use ngRoutes, etc)
+3) Add handling for backend errors with meaningful error messages
+4) Add authentication system to be able to identify user.
+5) Move to PostgreSQL 
