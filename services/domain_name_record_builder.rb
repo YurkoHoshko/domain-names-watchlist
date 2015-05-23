@@ -13,8 +13,8 @@ class DomainNameRecordBuilder
     params = {
       :domain_name => domain,
       :status => status,
-      :created_on => created_on.strftime("%FT%R" ),
-      :expires_on => expires_on.strftime("%FT%R"),
+      :created_on => created_on,
+      :expires_on => expires_on,
       :contact_name => contact.try(:name),
       :contact_email => contact.try(:email)
     }
