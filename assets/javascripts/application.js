@@ -8,7 +8,7 @@
       self.getDomainNameInfo = function(){
         var request = {
           "method": "GET",
-          "url": "http://127.0.0.1:9292/domain_name_info",
+          "url": "/domain_name_info",
           "params": {
             "domain_name": self.domainName
           }
@@ -23,7 +23,7 @@
       self.addToWatchList = function(){
         var request = {
           "method": "POST",
-          "url": "http://127.0.0.1:9292/watchlist",
+          "url": "/watchlist",
           "headers": {'Content-Type': 'application/x-www-form-urlencoded'},
           "transformRequest": function(obj) {
               var str = [];
@@ -43,7 +43,7 @@
       self.revealWatchList = function(){
         var request = {
           "method": "GET",
-          "url": "http://127.0.0.1:9292/watchlist",
+          "url": "/watchlist",
         };
         $http(request)
           .success(function(data){

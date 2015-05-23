@@ -4,6 +4,7 @@ class DomainNamesWatchlist < Sinatra::Base
   enable :sessions
   
   set :assets_prefix, %w(assets)
+  set :assets_precompile, %w(application.js)
   register Sinatra::AssetPipeline
 
   get "/domain_name_info" do
