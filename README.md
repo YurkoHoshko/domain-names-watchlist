@@ -1,5 +1,7 @@
 # domain-names-watchlist
-Allows users to check basic information about domain name and create list of domain names, that are interesting for user
+Allows users to check basic information about domain name and create list of domain names, that are interesting for user.
+
+This application is available at https://thawing-bayou-2123.herokuapp.com/
 
 #Setup
 
